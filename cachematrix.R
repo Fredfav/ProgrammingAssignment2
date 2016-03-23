@@ -1,6 +1,18 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## Example output: 
+##>Test_Matrix <-makeCacheMatrix(matrix(c(2,0,0,1), c(2,2)))
+##> cacheSolve(Test_Matrix)
+##  [,1] [,2]
+##  [1,]  0.5    0
+##  [2,]  0.0    1
+##> cacheSolve(Test_Matrix)
+##  getting cached data
+##  [,1] [,2]
+##  [1,]  0.5    0
+##  [2,]  0.0    1
+
 ## Write a short comment describing this function
 ## This function creates a special "matrix" object that can cache its inverse.
 
